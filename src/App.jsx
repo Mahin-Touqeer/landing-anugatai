@@ -171,7 +171,7 @@ const LandingPage = () => {
           // style={{ transform: `translateY(${scrollY * 0.08}px)` }}
         >
           <motion.div
-            className="inline-flex items-center bg-gradient-to-r from-blue-400 via-blue-400 to-blue-400 text-[#fff]  px-8 py-3 rounded-xl shadow transition-all duration-300"
+            className="inline-flex items-center bg-gradient-to-r from-blue-400 via-blue-400 to-blue-400 text-[#fff] px-3 sm:px-8 py-3 rounded-xl shadow transition-all duration-300"
             // whileHover={{ scale: 1.05 }}
             // whileTap={{ scale: 0.95 }}
           >
@@ -253,7 +253,7 @@ const LandingPage = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email address"
-            className="flex-1 px-4 py-1 rounded-2xl border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white/80 backdrop-blur-sm text-blue-900 placeholder-blue-500/60 font-medium"
+            className="flex-1 px-4 py-3 rounded-2xl border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white/80 backdrop-blur-sm text-blue-900 placeholder-blue-500/60 font-medium"
             required
           />
           <motion.button

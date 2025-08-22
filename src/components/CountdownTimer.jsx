@@ -46,17 +46,17 @@ const CountdownTimer = () => {
       color: "#d3e9f9",
     },
     {
-      label: "Hours",
+      label: "hours",
       value: timeLeft.hours,
       color: "from-purple-600 to-pink-600",
     },
     {
-      label: "Minutes",
+      label: "minutes",
       value: timeLeft.minutes,
       color: "from-green-500 to-teal-600",
     },
     {
-      label: "Seconds",
+      label: "seconds",
       value: timeLeft.seconds,
       color: "from-orange-500 to-red-500",
     },
@@ -94,12 +94,12 @@ const CountdownTimer = () => {
       whileInView="visible"
       //   viewport={{ once: true }}
       //   variants={containerVariants}
-      className="bg-transparent mb-8 backdrop-blur-xl rounded-3xl p-2 px-4  border border-white/30 max-w-4xl mx-auto"
+      className="bg-transparent mb-8 backdrop-blur-xl rounded-3xl p-2 md:px-4 px-0 border border-white/30 max-w-4xl mx-auto"
     >
       {/* Countdown Display */}
       <div
         variants={itemVariants}
-        className="grid grid-cols-4 md:grid-cols-4 gap-6 "
+        className="grid grid-cols-4 md:grid-cols-4 gap-2 md:gap-6 "
       >
         {timeUnits.map((unit, index) => (
           <div
@@ -109,7 +109,7 @@ const CountdownTimer = () => {
             // key={index}
           >
             <div
-              className={`bg-[#d3e9f9] text-[#666] p-2 rounded-2xl shadow group-hover:shadow-xl transition-all duration-300`}
+              className={`bg-[#d3e9f9] text-[#666] p-3 sm:p-2 rounded-2xl shadow group-hover:shadow-xl transition-all duration-300`}
             >
               <div className="relative z-10 text-center">
                 <div
