@@ -7,7 +7,7 @@ function Navbar() {
             <img src="./logo.png" className="" alt="" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold text-[#212121] ">Anugat Ai</h1>
+            <h1 className="text-2xl font-bold text-[#212121] ">Anugat AI</h1>
             {/* <p className="text-xs text-blue-600/70 -mt-1">
               Intelligent Solutions
             </p> */}
