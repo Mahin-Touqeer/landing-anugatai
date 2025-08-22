@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import { Clock } from "lucide-react";
 import CountdownTimer from "./components/CountdownTimer";
 import Matrabhasha from "./components/cards/Matrabhasha";
-import Samayak from "./components/cards/samayak";
+import Samayak from "./components/cards/Samayak";
 import Vaani from "./components/cards/Vaani";
 
 const LandingPage = () => {
